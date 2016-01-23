@@ -42,7 +42,7 @@ The file `syntaxalyze.html` is included with every problem. Open it in your brow
 Solutions are submitted via [Pull Request](https://help.github.com/articles/using-pull-requests). Follow these steps:
 
 1. From **your fork**, select `Pull Requests` and then create a `New pull request`.
-2. STOP. *Before* you `Click to create a pull request for this comparison` you must **adjust the target branch** (aka `base branch`) to be your username. Once chagned, the pull-request heading should look like this:
+2. STOP. *Before* you `Click to create a pull request for this comparison` you must **adjust the target branch** (aka `base branch`) to be your username. Once changed, the pull-request heading should look like this:
 
   > telegraphacademy:username ... username:master
 
@@ -63,6 +63,9 @@ Each assessment contains folders that correspond to the prompts listed below. Co
 
 * [ ] Use `syntaxalyze.html` to identify (and fix) all the syntax errors in `prcs-syntax-errors.js`. See the main body of the README associated with this assessment for more info.
 
+
+No idea what this is referring to
+---------------------------------
 * [ ] Save your changes to `prcs-syntax-errors/prcs-syntax-errors.js`
 * [ ] Switch to terminal and verify the changes you made using `git status` and then `git diff`
 * [ ] Stage your changes using `git add prcs-syntax-errors/prcs-syntax-errors.js`
