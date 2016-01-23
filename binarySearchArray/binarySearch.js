@@ -21,21 +21,18 @@ var binarySearch = function (array, target, min, max) {
     // calculate midpoint to cut set in half
     // If the max and min are the same, then they are their own midpoint
     // If they are not, then split the difference and round to the nearest integer
-    var mid = (max == min) ? max : Math.round( min + ( (max-min)/2 ) );
+    var mid = (max === min) ? max : Math.round( min + ( (max-min)/2 ) );
     // three-way comparison
     switch(true) {
       case (array[mid] === target):
         // Target has been found
         return mid;
-        break;
       case (array[mid] > target):
         // Target is in lower subset
         return binarySearch(array, target, min, mid - 1);
-        break;
       case (array[mid] < target):
         // Target is in upper subset
         return binarySearch(array, target, mid + 1, max);
-        break;
     }
   }
 };
