@@ -16,7 +16,7 @@ https://vimeo.com/152612712
 
 [X] While on the game.html, have the 'Home' button in the top left corner take you back to the home.html page.
 
-[ ] show the count by adding the 'count' variable to the top right corner of the page
+[X] show the count by adding the 'count' variable to the top right corner of the page
 
 [ ] answerGenerator: this feature generates the answers to their corresponding question.
 

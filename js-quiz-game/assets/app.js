@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	
+
 	event.preventDefault();
 	// our current count, attached to the upper right hand corner of the browser
 	var $currentCount = $('#counter')
@@ -7,8 +7,9 @@ $(document).ready(function(){
 	var $currentForm = $('form');
 	// creates our first random question upon generating the game.html file
 	var firstRandomQuestion = app.questions[Math.floor(Math.random()* app.questions.length)];
-	
+
 	//attaches the counter to the highscore on page
+	$currentCount.text(app.count);
 
 	//attaches the first question to the form onload
 	$currentForm.prepend('<h3 class = "question"> Question: ' + firstRandomQuestion.question + '</h3>' + '<br><br>');
@@ -36,7 +37,7 @@ $(document).ready(function(){
 			$('.choices').empty().append(QandAgenerator());
 		} else {
 			app.failureDisplay();
-		}		
+		}
 	});
 
 	$('#restart').on('click', function(){
@@ -45,4 +46,3 @@ $(document).ready(function(){
 
 	answerGenerator(firstRandomQuestion);
 });
-
