@@ -61,16 +61,18 @@ Each assessment contains folders that correspond to the prompts listed below. Co
 
 ### Syntax Errors
 
-* [ ] Use `syntaxalyze.html` to identify (and fix) all the syntax errors in `prcs-syntax-errors.js`. See the main body of the README associated with this assessment for more info.
-
-
 No idea what this is referring to
 ---------------------------------
+* [ ] Use `syntaxalyze.html` to identify (and fix) all the syntax errors in `prcs-syntax-errors.js`. See the main body of the README associated with this assessment for more info.
 * [ ] Save your changes to `prcs-syntax-errors/prcs-syntax-errors.js`
 * [ ] Switch to terminal and verify the changes you made using `git status` and then `git diff`
 * [ ] Stage your changes using `git add prcs-syntax-errors/prcs-syntax-errors.js`
 * [ ] Commit your changes using `git commit`.
 * [ ] Push your changes to your fork of the assessment using `git push origin master`
+
+Assume task means
+-----------------
+* [ ] Use `syntaxalyze.html` to identify (and fix) all the syntax errors in javascript files
 
 ### Pull Request
 
