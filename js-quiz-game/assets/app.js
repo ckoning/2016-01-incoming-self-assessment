@@ -3,6 +3,18 @@ $(document).ready(function(){
 	event.preventDefault();
 	// our current count, attached to the upper right hand corner of the browser
 	var $currentCount = $('#counter')
+	// the element holding the form
+	var question = $('#question');
+	// the element holding the username collection
+	var usernameField = $('#user');
+	// Set the visibility
+	if( !app.user ) {
+		question.hide();
+		usernameField.show();
+	} else {
+		question.show();
+		usernameField.hide();
+	}
 	// our current form which will hold the question and subsequent answers loaded in the app.questions object.
 	var $currentForm = $('form');
 	// creates our first random question upon generating the game.html file
@@ -58,5 +70,18 @@ $(document).ready(function(){
 		location.reload();
 	});
 
-	answerGenerator(firstRandomQuestion);
+	// get the user
+	$('#setUser').on('click',function(){
+		event.preventDefault();
+		// Get the username
+		app.username = $('#username').val();
+		console.log(app.username);
+		// Generate the first question
+		console.log(firstRandomQuestion);
+		answerGenerator(firstRandomQuestion);
+		// Hide the username field
+		usernameField.hide();
+		// Show the question
+		question.show();
+	});
 });

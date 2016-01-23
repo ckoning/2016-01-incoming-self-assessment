@@ -160,7 +160,7 @@ app.countIncrementor = function(){
 app.successDisplay = function(){
 	var msg = 'you are correct!';
 	if(app.username) {
-		msg = app.username+' ,' + msg;
+		msg = app.username+', ' + msg;
 	} else {
 		msg = msg.charAt(0).toUpperCase() + msg.slice(1);
 	}

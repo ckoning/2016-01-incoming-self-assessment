@@ -26,11 +26,23 @@
         </div>
       </div>
     </nav>
-    <div class='welcome'>
-      <img class='jsPic' src='photos/javascript.png' width="200px">
-      <form class ='choices'>
-      </form>
-      <button class='btn-lg' id='checkAnswer' type='button'> Am I right?</button>
+	<div class='welcome'>
+	  <img class='jsPic' src='photos/javascript.png' width="200px">
+      <div class="vertical-align" id="user">
+		<br />
+		<label class="col-md-2 col-md-offset-3 align-right h4" for="username">Enter a username to start</label>
+		<div class="col-md-2">
+	      <input type="text" class="col-md-2 form-control" maxlength="30" id="username" value=""/>
+        </div>
+		<div class="col-md-1">
+		  <button class='btn-lg' id='setUser' type='button'> Begin</button>
+	    </div>
+	  </div>
+	  <div id="question">
+        <form class='choices'>
+        </form>
+        <button class='btn-lg' id='checkAnswer' type='button'> Am I right?</button>
+	  </div>
     </div>
 	<script src="assets/data_generator.js"></script>
     <script src="assets/app.js"></script>
