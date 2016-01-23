@@ -30,8 +30,6 @@ $(document).ready(function(){
 	var answerGenerator = function (randomQuestion){
 		// Get the choices
 		var choices = randomQuestion.choices;
-		// Create a radio element to put the choices in
-		var $radio = '';
 		// Loop and append
 		for( var i in choices) {
 			// Create a select element
