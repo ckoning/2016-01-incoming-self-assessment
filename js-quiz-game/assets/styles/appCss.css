@@ -6944,3 +6944,7 @@ button.close {
 .panel-info .panel-title {
   color: #fff;
 }
+.vertical-align {
+    display: flex;
+    align-items: center;
+}

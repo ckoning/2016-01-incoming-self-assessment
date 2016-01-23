@@ -12,7 +12,7 @@
 ## Grading Outline
 
 #### js-quiz-game
-[ ] While on the game.html, have the 'Home' button in the top left corner take you back to the index.html page.
+[ ] While on the game.html, have the 'Home' button in the top left corner take you back to the home.html page.
 
 [ ] Show the count by adding the 'count' variable to the top right corner of the page
 
@@ -41,7 +41,7 @@ The file `syntaxalyze.html` is included with every problem. Open it in your brow
 
 Solutions are submitted via [Pull Request](https://help.github.com/articles/using-pull-requests). Follow these steps:
 
-1. From **your fork**, select `Pull Requests` and then create a `New pull request`. 
+1. From **your fork**, select `Pull Requests` and then create a `New pull request`.
 2. STOP. *Before* you `Click to create a pull request for this comparison` you must **adjust the target branch** (aka `base branch`) to be your username. Once chagned, the pull-request heading should look like this:
 
   > telegraphacademy:username ... username:master
@@ -55,8 +55,7 @@ Each assessment contains folders that correspond to the prompts listed below. Co
 
 ### Reading
 
-* [ ] Read the instructions in the main body of the README associated
-with this assessment.
+* [ ] Read the instructions in the main body of the README associated with this assessment.
 * [ ] Read the wiki page on [Self Assessments](https://github.com/telegraphacademy/tga-student-wiki/blob/master/Self-Assessments.md).
 
 
@@ -73,9 +72,8 @@ with this assessment.
 ### Pull Request
 
 * [ ] Follow the instructions in the main body of the README associated
-with this assessment to submit your solutions for this assessment. 
+with this assessment to submit your solutions for this assessment.
 
 #### Issue a pull request
 
 ![prcs1-pull](https://cloud.githubusercontent.com/assets/1577682/2963414/c2b6dca0-dada-11e3-8961-1fab1f8294b4.gif)
-
