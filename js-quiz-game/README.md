@@ -18,7 +18,7 @@ https://vimeo.com/152612712
 
 [X] show the count by adding the 'count' variable to the top right corner of the page
 
-[ ] answerGenerator: this feature generates the answers to their corresponding question.
+[X] answerGenerator: this feature generates the answers to their corresponding question.
 
 [ ] QandA generator: this feature generates the next question and answers when the user gets the question correct
 

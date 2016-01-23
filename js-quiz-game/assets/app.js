@@ -16,7 +16,17 @@ $(document).ready(function(){
 
 	// appends all four answers to the corresponding question
 	var answerGenerator = function (randomQuestion){
-
+		// Get the choices
+		var choices = randomQuestion.choices;
+		// Create a radio element to put the choices in
+		var $radio = '';
+		// Loop and append
+		for( var i in choices) {
+			// Create a select element
+			var $radio = $('<div class="radio"><input type="radio" class="radio-inline" name="answer" value="'+choices[i]+'" > '+choices[i]+'</div>');
+			// Add the choice to the form
+			$currentForm.append($radio);
+		}
 	};
 
 	//adds a random question and its corresponding answers to our currentForm
