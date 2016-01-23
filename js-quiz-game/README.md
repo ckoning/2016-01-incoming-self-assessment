@@ -20,6 +20,6 @@ https://vimeo.com/152612712
 
 [X] answerGenerator: this feature generates the answers to their corresponding question.
 
-[ ] QandA generator: this feature generates the next question and answers when the user gets the question correct
+[X] QandA generator: this feature generates the next question and answers when the user gets the question correct
 
 [ ] EXTRA: add a feature that collects a userName from the user and personalizes the 'you are correct!' prompt when the user has a successful answer.
